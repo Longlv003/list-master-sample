@@ -1,0 +1,29 @@
+{
+  "port": 3001,
+  "basePathUNC": "\\\\10.212.9.4\\aoi-data\\2.Ảnh AOM\\2026\\1. Mater sample (Cấm xóa)\\Tháng 10",
+  "masterSampleJsonPath": "\\\\10.212.9.4\\aoi-data\\2.Ảnh AOM\\2026\\1. Mater sample (Cấm xóa)\\master-sample.json",
+  "dbPath": "./data/db/app.db",
+  "sessionSecret": "",
+  "scanIntervalSec": 7200,
+  "defaultDateRangeDays": 30,
+  "expiryWarningDays": 7,
+  "backupIntervalHours": 24,
+  "backupRetentionDays": 30,
+  "logRetentionDays": 30,
+  "server": {
+    "port": 3001,
+    "host": "0.0.0.0"
+  },
+  "paths": {
+    "auditLog": "./data/logs"
+  },
+  "session": {
+    "cookieName": "lm.sid"
+  },
+  "expiry": {
+    "warningDays": 7
+  },
+  "logging": {
+    "level": "info"
+  }
+}

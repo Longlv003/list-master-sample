@@ -1,0 +1,5 @@
+{"level":30,"time":1791984906274,"pid":11824,"hostname":"DESKTOP-MQRA7GN","msg":"Connecting to SQLite database at: D:\\0._Long\\SEI\\ListMasterSample\\data\\db\\listmaster.db"}
+{"level":30,"time":1791984906791,"pid":11824,"hostname":"DESKTOP-MQRA7GN","msg":"=== Starting ListMaster Server ==="}
+{"level":30,"time":1791984906792,"pid":11824,"hostname":"DESKTOP-MQRA7GN","msg":"Database migrations completed successfully"}
+{"level":30,"time":1791984906796,"pid":11824,"hostname":"DESKTOP-MQRA7GN","msg":"RealtimeService initialized with Socket.IO instance"}
+{"level":30,"time":1791984906797,"pid":11824,"hostname":"DESKTOP-MQRA7GN","msg":"Starting Chokidar file watcher on: D:\\0._Long\\SEI\\ListMasterSample\\data\\excel\\samples.xlsx"}

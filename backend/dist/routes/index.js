@@ -1,0 +1,24 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const auth_routes_1 = __importDefault(require("./auth.routes"));
+const sample_routes_1 = __importDefault(require("./sample.routes"));
+const user_routes_1 = __importDefault(require("./user.routes"));
+const device_routes_1 = __importDefault(require("./device.routes"));
+const audit_routes_1 = __importDefault(require("./audit.routes"));
+const dashboard_routes_1 = __importDefault(require("./dashboard.routes"));
+const image_routes_1 = __importDefault(require("./image.routes"));
+const masterSample_routes_1 = __importDefault(require("./masterSample.routes"));
+const router = (0, express_1.Router)();
+router.use('/auth', auth_routes_1.default);
+router.use('/dashboard', dashboard_routes_1.default);
+router.use('/images', image_routes_1.default);
+router.use('/master-samples', masterSample_routes_1.default);
+router.use('/samples', sample_routes_1.default);
+router.use('/users', user_routes_1.default);
+router.use('/devices', device_routes_1.default);
+router.use('/audit', audit_routes_1.default);
+exports.default = router;

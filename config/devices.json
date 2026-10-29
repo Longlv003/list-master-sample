@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "description": "Danh sách thiết bị/tablet trong mạng LAN - Dùng để seed ban đầu hoặc import. Nguồn sự thật là SQLite.",
+  "devices": [
+    {
+      "ip_address": "10.144.195.81",
+      "name": "Host-Server",
+      "description": "Máy chủ vận hành ListMaster",
+      "is_active": true
+    },
+    {
+      "ip_address": "192.168.1.101",
+      "name": "Tablet-01",
+      "description": "Tablet khu vực A",
+      "is_active": true
+    },
+    {
+      "ip_address": "192.168.1.102",
+      "name": "Tablet-02",
+      "description": "Tablet khu vực B",
+      "is_active": true
+    }
+  ]
+}
